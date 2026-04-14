@@ -9,30 +9,33 @@ A collection of Security-focused Lab Experiments covering vulnerability analysis
 4. **Secure Code Review**: Audit of a login system.
 5. **Network Traffic Inspection**: Packet analysis using Wireshark.
 
-🛠️ Tech Stack & Tools
-Core Technologies
-Languages: C, Python (Security Scripting)
+## 🛠️ Tech Stack & Tools
+### **Core Technologies**
+* **Languages:** `C`, `Python` (Security Scripting)
+* **Web Security:** `HTML5`, `CSS3`, `JavaScript` (DOM-based XSS)
+* **Database:** `SQLite` / `MySQL` (SQL Injection testing)
 
-Web Security: HTML5, CSS3, JavaScript (DOM-based XSS)
+### **Security & Analysis Tools**
+* **Network Analysis:** `Wireshark` (Packet Inspection & Protocol Analysis)
+* **Vulnerability Scanning:** `Bandit` (Static Analysis for Python), `Flawfinder` (C)
+* **Cryptography:** `SHA-256` Hashing, Salted Password Implementations
+* **Testing Environment:** `Burp Suite` (Web Vulnerability Research)
 
-Database: SQLite / MySQL (SQL Injection testing)
+---
 
-Security & Analysis Tools
-Network Analysis: Wireshark (Packet Inspection & Protocol Analysis)
+## 🧪 Repository Overview
 
-Vulnerability Scanning: Bandit (Static Analysis for Python), Flawfinder (C)
+1. **Security Flaw Analysis**
+   * Leveraging static analysis tools to identify **memory leaks** and **buffer overflows** in C and insecure patterns in Python.
 
-Cryptography: SHA-256 Hashing, Salted Password Implementations
+2. **Input-Based Attacks**
+   * Simulating **SQLi** and **XSS** within a local environment to understand and block injection-based vectors.
 
-Testing Environment: Burp Suite (Web Vulnerability Research)
+3. **Cryptographic Hashing**
+   * Implementing **secure-by-design** password storage using **SHA-256 and Salting** to prevent rainbow table attacks.
 
-🧪 Repository Overview
-Security Flaw Analysis: Leveraging static analysis tools to identify memory leaks and buffer overflows in C and insecure patterns in Python.
+4. **Secure Code Review**
+   * A manual and automated audit of a **Login System** to identify logic flaws and authentication bypasses.
 
-Input-Based Attacks: Simulating SQLi and XSS within a local environment to understand and block injection-based vectors.
-
-Cryptographic Hashing: Implementing secure-by-design password storage using SHA-256 and Salting to prevent rainbow table attacks.
-
-Secure Code Review: A manual and automated audit of a Login System to identify logic flaws and authentication bypasses.
-
-Network Traffic Inspection: Deep-packet analysis using Wireshark to detect unencrypted data transmission and potential Man-in-the-Middle (MitM) risks.
+5. **Network Traffic Inspection**
+   * Deep-packet analysis using **Wireshark** to detect unencrypted data transmission and potential **Man-in-the-Middle (MitM)** risks.
