@@ -1,4 +1,4 @@
-Detailed Project Documentation
+Full Project Documentation
 1. Project Overview
 This document is a full handoff and explanation of the project built in this folder.
 The project is a Python-based web application created for a software security lab. The purpose of the application is to demonstrate:
